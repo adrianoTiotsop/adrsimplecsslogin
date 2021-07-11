@@ -52,7 +52,7 @@ button, [type='submit']{
 	border: none;
 	border-radius: 4px;
 	color: white;
-	background-color: #25DD10;
+	background-color: #777;
 	min-width: 70px;
 }
 [type='submit']:focus{
