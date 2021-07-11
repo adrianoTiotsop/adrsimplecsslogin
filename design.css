@@ -6,6 +6,7 @@ body{
 }
 #formBox{
 	position: relative;
+	margin: auto;
 	animation: showLeft 1s 1 ease-in-out;
 	display: flex;
 	align-items: center;
