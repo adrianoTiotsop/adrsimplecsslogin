@@ -6,20 +6,19 @@ body{
 }
 #formBox{
 	position: relative;
-	margin: auto;
 	animation: showLeft 1s 1 ease-in-out;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	background-color: #111;
-	width: 400px;
+	width: 360px;
 	height: 570px;
 	border-radius: 8px;
 }
 #formBox:before{
 	position: absolute;
 	content: '';
-	width: 400px;
+	width: 360px;
 	height: 570px;
 	top: 0;
 	left: 0;
@@ -36,7 +35,7 @@ body{
 	border: none;
 	border-bottom: 1px solid #555;
 	margin: 4px 0 8px 94px;
-	width: 270px;
+	width: 240px;
 	padding: 8px;
 	font-size: 16px
 }
