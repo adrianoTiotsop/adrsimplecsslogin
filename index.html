@@ -11,10 +11,19 @@
 		<form name='register'
 		      method="POST"
 		      enctype="multipart/form-data" >
-			<input type='text' name='userLogin' placeholder='Name or email' />
+			<input type='text' id='start' name='userLogin' placeholder='Name or email' />
 			<input type='password' name="userPassword" placeholder='Password' required='required' /><br/>
 			<input type="date" name="birthday" required='required' />
-			<input type='submit' name="submit" value="Next" />
+			<input type='submit' name="submit" value="Next" /><br/>
+			<div id='status'>
+				<span class='status' style="background: url('./svg/status1.svg');"><img src='hair.jpeg' alt='no file' /></span>
+				<span class='status' style="background: url('./svg/status2.svg');"><img src='hair.jpeg' alt='no file' /></span>
+				<span class='status' style="background: url('./svg/status3.svg');"><img src='hair.jpeg' alt='no file' /></span>
+				<span class='status' style="background: url('./svg/status4.svg');"><img src='hair.jpeg' alt='no file' /></span>
+				<span class='status' style="background: url('./svg/status5.svg');"><img src='hair.jpeg' alt='no file' /></span>
+				<span class='status' style="background: url('./svg/status6.svg');"><img src='hair.jpeg' alt='no file' /></span>
+				<span class='status' style="background: url('./svg/status7.svg');"><img src='hair.jpeg' alt='no file' /></span>
+			</div>
 		</form>
 	</div>
 </body>

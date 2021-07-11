@@ -1,10 +1,12 @@
 body{
 	display: flex;
+	align-content: center;
 	align-items: center;
 	justify-content: center;
 }
 #formBox{
 	position: relative;
+	margin: auto;
 	animation: showLeft 1s 1 ease-in-out;
 	display: flex;
 	align-items: center;
@@ -57,6 +59,27 @@ button, [type='submit']{
 	color: black;
 }
 
+#start{margin-top: 67px;}
+#status{
+	margin-top: 16px;
+	margin-left: 94px;
+	text-align: center;
+	display: inline-block;
+}
+.status{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	padding: 5px;
+	background-color: white;
+	border-radius: 50%;
+}
+.status img{
+	max-width: 35px;
+	height: 35px;
+	clip-path: circle(17.5px at 50% 50%);
+	cursor: pointer;
+}
 
 @keyframes showLeft{
 	from{clip-path: inset(0% 100% 100% 0%);}
